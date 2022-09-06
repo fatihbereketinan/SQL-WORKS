@@ -44,7 +44,7 @@ Kurs bilgilerini tutmak istiyoruz. Eğitmen bilgilerini tutmak istiyoruz.Bir kur
 ![Ekran Alıntısı14](https://user-images.githubusercontent.com/77534195/188628359-6de92bd3-0aad-4899-874e-e7497bb8a365.PNG)
 ![Ekran Alıntısı13](https://user-images.githubusercontent.com/77534195/188628393-52cd87f8-8a1a-470d-98e1-50def40e2045.PNG)
 
-16. Id üzerinde sağ tıklayıp properties yapıp Identity Column kısmında Id yi seçip otomatik artanlı yaptık.
+16. Id üzerinde sağ tıklayıp propertiesten Identity Column kısmında Id yi seçip otomatik artanlı yaptık.
 
 
 
