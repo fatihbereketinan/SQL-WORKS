@@ -37,3 +37,12 @@ Kurs bilgilerini tutmak istiyoruz. Eğitmen bilgilerini tutmak istiyoruz.Bir kur
 ![Ekran Alıntısı12](https://user-images.githubusercontent.com/77534195/188626257-06fae122-ccbd-4710-86c2-41b627efc696.PNG)
 
 13. Foreign Key (yabancı anahtar) ikincil anahtar olarak da ifade edilmektedir. Bir veri tablosuna girilebilecek değerleri başka bir veri tablosundaki alanlarla ilişkilendirmeye yarar. Özetle, başka bir tablonun birincil anahtarının bir diğer tablo içerisinde yer almasıdır.
+14. Foreign key sayesinde tablolarımız ilişkili olduğu kısımlarda veri kontrollerini yapar ve kaçak oluşmasını önler.
+
+15. Şimdi ise tablolarımızda yer alan Id kolonlarını otomatik artanlı şekilde ayarlayalım.
+
+![Uploading Ekran Alıntısı13.PNG…]()
+![Uploading Ekran Alıntısı14.PNG…]()
+
+
+
