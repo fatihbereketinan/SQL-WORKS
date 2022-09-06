@@ -2,25 +2,25 @@ Bir önceki repoda WorkShop2 örneğini gerçek bir veritabanına uygulayalım.
 ***WorkShop2: Udemy gibi bir sistemin veritabanını kurmak istiyoruz. Gereksinimler; 
 Kurs bilgilerini tutmak istiyoruz. Eğitmen bilgilerini tutmak istiyoruz.Bir kursun bir veya birden fazla eğitmeni olabilir. 
 
-1.Örneği uygulamak için Microsoft SQL Servent Management Studio kullanılmıştır.
-2.Program üzerinde Education adında new databeses oluşturuldu.
-3.Courses, Instructors ve CourseInstructors adında 3 tane tablo tanımlandı.
+1. Örneği uygulamak için Microsoft SQL Servent Management Studio kullanılmıştır.
+2. Program üzerinde Education adında new databeses oluşturuldu.
+3. Courses, Instructors ve CourseInstructors adında 3 tane tablo tanımlandı.
 
 ![Ekran Alıntısı3](https://user-images.githubusercontent.com/77534195/188615141-86bc53a8-4c54-477f-94ca-e0f71d075ff1.PNG)
 
-4.Tablolara ait kolon bilgileri ve veri tipleri girilip, Id kolonları primary key olarak işaretlendi.
+4. Tablolara ait kolon bilgileri ve veri tipleri girilip, Id kolonları primary key olarak işaretlendi.
 
 ![Ekran Alıntısı6](https://user-images.githubusercontent.com/77534195/188615654-a1c4b261-a909-4838-9ffe-965972e671f8.PNG)
 ![Ekran Alıntısı4](https://user-images.githubusercontent.com/77534195/188615657-5f86a1d7-4ca2-451d-ae2f-6f3114e35b93.PNG)
 ![Ekran Alıntısı5](https://user-images.githubusercontent.com/77534195/188615663-2be2abf0-0a7b-498f-8ca9-8d344e008631.PNG)
 
-5.Primary Key (birincil anahtar), bir veri tablosunda yer alan her satır için bir vekil / tanımlayıcı (identify) görevi görür, kısıtlamadır (constraint) ve eşsizdir.
-6.Unique Key tanımlamaları yapıldı.
-7.CourseInstructor tablosundaki KursId ve EgitmenId birlikte unique key olarak işaretlendi. Bu sayede aynı kurs ve aynı eğitmeninin tekrar etmesi engellendi.
+5. Primary Key (birincil anahtar), bir veri tablosunda yer alan her satır için bir vekil / tanımlayıcı (identify) görevi görür, kısıtlamadır (constraint) ve eşsizdir.
+6. Unique Key tanımlamaları yapıldı.
+7. CourseInstructor tablosundaki KursId ve EgitmenId birlikte unique key olarak işaretlendi. Bu sayede aynı kurs ve aynı eğitmeninin tekrar etmesi engellendi.
 
 ![Ekran Alıntısı7](https://user-images.githubusercontent.com/77534195/188617861-dedd39d4-c8e9-41d4-bfde-9afa532238c7.PNG)
 
-8.Tablolara data girişleri yapıldı ve unique key alanların doğru çalışıp çalışmadığı kontrol edildi.
+8. Tablolara data girişleri yapıldı ve unique key alanların doğru çalışıp çalışmadığı kontrol edildi.
 
 ![Ekran Alıntısı8](https://user-images.githubusercontent.com/77534195/188619019-759f0054-8916-4c44-845f-2fdfd81f1529.PNG)
 ![Ekran Alıntısı9](https://user-images.githubusercontent.com/77534195/188619022-c08a934f-879d-4a9f-8dd8-84e0c51ccda6.PNG)
