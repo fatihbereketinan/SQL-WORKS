@@ -1,3 +1,5 @@
+***Çalışmalar Microsoft'un örnek veri tabanı olan Northwind üzerinden yapılmıştır. https://raw.githubusercontent.com/microsoft/sql-server-samples/master/samples/databases/northwind-pubs/instnwnd.sql
+
 1. Şartları sağlayanları getir
 
 Select * from Products where CategoryID=1 and SupplierID=1 
