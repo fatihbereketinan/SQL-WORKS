@@ -4,8 +4,11 @@ https://raw.githubusercontent.com/microsoft/sql-server-samples/master/samples/da
 1. COUNT: Bu fonksiyon ile belirtilen alandaki veya tablodaki toplam kayıt sayısını öğreniriz. 
 
 Select Count(*) as [Ürün Sayısı] from Products
+
 Select Count(ProductName) from Products
+
 Select Count(*) from Customers
+
 Select Count(Region) from Customers
 
 2. SUM : Bu fonksiyon ile belli bir grup içinde toplama yapabiliriz.
