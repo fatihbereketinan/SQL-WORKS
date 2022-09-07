@@ -12,5 +12,18 @@ Select * from Products where UnitsInStock>=10
 
 Select * from Products where UnitsInStock=0 and UnitsOnOrder>0
 
+4. Stokta olmayan veya sipariş bekleyen ürünleri getir.
+
+Select * from Products where UnitsInStock=0 or UnitsOnOrder=0
+
+5. Ürün adı Chai olmayan ve stoğu olmayan ürünleri getir.
+
+Select * from Products where not ProductName='Chai' and UnitsInStock=0
+
+6. Ürünler tablosunu ürün adına göre sırala. (asc:artanlı-----------desc:düşenli)
+
+Select * from Products order by ProductName asc
+
+
 
 --Şartlı şekilde filtreme yapacaksak where komutunu kullanırız.
